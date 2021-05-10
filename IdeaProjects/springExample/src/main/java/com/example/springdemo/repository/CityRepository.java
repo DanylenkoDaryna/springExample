@@ -1,4 +1,7 @@
 package com.example.springdemo.repository;
 
-public class CityRepository {
+import com.example.springdemo.model.City;
+import org.springframework.data.repository.CrudRepository;
+
+public interface CityRepository extends CrudRepository<City, Long> {
 }
